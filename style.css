@@ -1,0 +1,90 @@
+body {
+    background: url(car.gif) no-repeat; /* Set background image without repeating */
+    background-size: cover;
+	
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+*{
+	font-family: monospace;
+	box-sizing: border-box;
+}
+
+form {
+	
+	height: 500px;
+    width: 600px;
+	border: 2px solid black;
+	padding: 70px;
+	background-color: #00000015;
+	border-radius: 15px;
+	backdrop-filter: blur(8px);
+}
+
+
+
+input {
+	display: block;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+	height: 50px;
+}
+label {
+	
+	color: black;
+	font-size: 20px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+button:hover{
+	opacity: .7;
+}
+.error {
+   background: #F2DEDE;
+   color: #A94442;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+.success {
+   background: #D4EDDA;
+   color: #40754C;
+   padding: 10px;
+   width: 95%;
+   border-radius: 5px;
+   margin: 20px auto;
+}
+
+h1 {
+	
+	color: #fff;
+}
+
+.ca {
+	font-size: 20px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+.ca:hover {
+	text-decoration: underline;
+} 
+
